@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Delete your WannaGame account</title>
+<meta name="description" content="How to delete your WannaGame account and what happens to your data.">
+<meta name="theme-color" content="#0A0B0D">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Unbounded:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0A0B0D; --tile: #16171B; --ink: #F2F3F5; --on-light: #0A0B0D;
+    --w03: rgba(255,255,255,0.03); --w06: rgba(255,255,255,0.06); --w09: rgba(255,255,255,0.09);
+    --w14: rgba(255,255,255,0.14); --t85: rgba(255,255,255,0.85); --t60: rgba(255,255,255,0.6);
+    --t45: rgba(255,255,255,0.45);
+  }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { background: var(--bg); color: var(--ink); font-family: Manrope, system-ui, sans-serif; }
+  body { min-height: 100dvh; display: flex; flex-direction: column; padding: 20px 20px calc(28px + env(safe-area-inset-bottom)); max-width: 460px; margin: 0 auto; }
+  .logo { font-family: Unbounded, sans-serif; font-weight: 600; font-size: 20px; letter-spacing: -0.5px; }
+  .logo span { color: #C8FF4D; }
+  main { flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; gap: 14px; padding: 40px 0; }
+  .avatar { width: 96px; height: 96px; border-radius: 29px; background: var(--tile); border: 1px solid var(--w09); display: grid; place-items: center; overflow: hidden; }
+  .avatar img { width: 100%; height: 100%; object-fit: cover; }
+  .eyebrow { font-weight: 600; font-size: 14px; color: var(--t45); margin-top: 8px; }
+  h1 { font-family: Unbounded, sans-serif; font-weight: 600; font-size: 28px; letter-spacing: -1px; line-height: 1.15; overflow-wrap: anywhere; }
+  .meta { font-weight: 600; font-size: 14px; color: var(--t60); line-height: 1.5; }
+  .actions { display: flex; flex-direction: column; gap: 10px; }
+  .btn { display: flex; align-items: center; justify-content: center; height: 56px; border-radius: 28px; font-weight: 800; font-size: 15px; text-decoration: none; }
+  .btn.light { background: var(--ink); color: var(--on-light); }
+  .note { font-weight: 600; font-size: 13px; color: var(--t45); text-align: center; line-height: 1.5; }
+  .skeleton { color: transparent; background: var(--w06); border-radius: 8px; }
+  [hidden] { display: none !important; }
+  .doc { flex: 1; padding: 40px 0; display: flex; flex-direction: column; gap: 14px; }
+  .doc h1 { font-size: 26px; }
+  .doc h2 { font-family: Unbounded, sans-serif; font-weight: 600; font-size: 16px; letter-spacing: -0.3px; margin-top: 14px; }
+  .doc p, .doc li { font-weight: 500; font-size: 15px; line-height: 1.6; color: var(--t85); }
+  .doc ol, .doc ul { padding-left: 20px; display: flex; flex-direction: column; gap: 6px; }
+  .doc strong { color: var(--ink); font-weight: 800; }
+</style>
+</head>
+<body>
+  <a class="logo" href="/" style="color: inherit; text-decoration: none">wanna<span>game</span></a>
+  <main class="doc" style="align-items: stretch; text-align: left; justify-content: flex-start">
+    <h1>Delete your account</h1>
+    <p>You can delete your WannaGame account yourself, any time, from inside the app.</p>
+    <ol>
+      <li>Open WannaGame and go to the <strong>Profile</strong> tab.</li>
+      <li>Scroll down and tap <strong>Delete account</strong>.</li>
+      <li>Confirm with <strong>Delete account</strong>.</li>
+    </ol>
+
+    <h2>What gets deleted</h2>
+    <ul>
+      <li>Your account, email address and username</li>
+      <li>Your calls, and your answers to other people’s calls</li>
+      <li>Your squad memberships and push notification tokens</li>
+      <li>Squads you own that have nobody else in them, including their pictures</li>
+    </ul>
+
+    <h2>What stays</h2>
+    <ul>
+      <li>Squads you own that have other members pass to the member who joined first, so your friends keep their squad.</li>
+    </ul>
+    <p>Deletion happens right away and can’t be undone. Nothing is kept afterwards.</p>
+  </main>
+</body>
+</html>
