@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.wannagame.app",
+      "sha256_cert_fingerprints": [
+        "42:C5:35:F2:51:54:F7:9A:E8:1D:55:BD:A4:8A:5E:A5:ED:82:75:00:D6:40:C2:48:53:7F:3C:3E:03:37:37:05",
+        "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C"
+      ]
+    }
+  }
+]
